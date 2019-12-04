@@ -23,10 +23,13 @@ def monopoly_with_third_tier
   monopoly = {railroads: {
     pieces: 4,
     rent_in_dollars: {
-      names: 0,
-      b: 0,
-      c: 0,
-      d: 0
+      one_piece_owned:
+      two_pieces_owned:
+      three_pieces_owned:
+      four_pieces_owned:
+    },
+    names: {
+
     }
     }
   }
